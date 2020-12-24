@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>Vairuotojo teisių OCR</h1>
+
+<form method="POST" action="" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    {{ form.picture(class="file-input") }}
+    {{ form.submit(class="submit") }}
+</form>
+
+{% if output %}
+    <table>
+        <tr>
+            <th>Vardas</th>
+            <th>Pavardė</th>
+            <th>Gimimo data</th>
+            <th>Galioja nuo</th>
+            <th>Galioja iki</th>
+        </tr>
+        <tr>
+            <td>{{ output['name'] }}</td>
+            <td>{{ output['surname'] }}</td>
+            <td>{{ output['born'] }}</td>
+            <td>{{ output['valid_from'] }}</td>
+            <td>{{ output['valid_until'] }}</td>
+        </tr>
+    </table>
+
+    <img src="{{ url_for('static', filename=fn) }}">
+{% endif %}
+
+{% endblock content %}
