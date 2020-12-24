@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container" style="width:30%">
+
+    <form method="POST" action="" enctype="multipart/form-data" class="card container mt-5">
+
+        {{ form.hidden_tag() }}
+
+        <fieldset class="form-group">
+
+            <div class="row">
+                    <div class="col">
+                        {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                            <div class="alert alert-{{ category }}">
+                                {{ message }}
+                            </div>
+                            {% endfor %}
+                        {% endif %}
+                        {% endwith %}
+                    </div>
+            </div>
+
+            <legend class="border-bottom mb-4 mt-3">Add new item</legend>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <img class="card-img-top" src="{{ url_for('static', filename='images/thumbnails/' + img) }}" style="width: 300px; height: 225px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mt-3">
+                
+                {{ form.item_name.label(class="form-control-label") }}
+
+                {% if form.item_name.errors %}
+            
+                    {{ form.item_name(class="form-control form-control-lg is-invalid") }}
+            
+                    <div class="invalid-feedback">
+            
+                        {% for error in form.item_name.errors %}
+                        
+                            <span>{{ error }}</span>
+                        
+                        {% endfor %}
+            
+                    </div>
+            
+                {% else %}
+
+                    {{ form.item_name(class="form-control form-control-lg") }}
+                
+                {% endif %}
+            
+            </div>
+
+            <div class="form-group">
+            
+                {{ form.box_number.label(class="form-control-label") }}
+            
+                {% if form.box_number.errors %}
+            
+                    {{ form.box_number(class="form-control form-control-lg is-invalid") }}
+                    
+                    <div class="invalid-feedback">
+                    
+                        {% for error in form.box_number.errors %}
+                    
+                            <span>{{ error }}</span>
+                        
+                        {% endfor %}
+                    
+                    </div>
+
+                {% else %}
+
+                    {{ form.box_number(class="form-control form-control-lg") }}
+        
+                {% endif %}
+
+            </div>
+
+
+        </fieldset>
+
+        <div class="form-group text-center">
+
+            {{ form.submit(class="btn btn-lg btn-primary mt-3 mb-3") }}
+        
+        </div>
+
+    </form>
+
+</div>
+
+{% endblock content %}
