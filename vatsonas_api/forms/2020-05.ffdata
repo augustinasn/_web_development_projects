@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFData Version="1" CreatedByApp="ABBYY eFormFiller 2.5 v7 (build 190)" CreatedByLogin="Augustinas-DELL" CreatedOn="2020-05-06">
+<Form FormDefId="{DFDCC8EC-FFAB-4AA2-92E3-E20980272B19}" FormLocation="c:\users\augustinas-dell\desktop\vatsonas\vatsonas-api\vatsonas_api\form scraping\fr0600.mxfd">
+<DocumentPages>
+<Group Name="Visa forma">
+<ListPages>
+<ListPage>FR0600</ListPage>
+</ListPages>
+</Group>
+</DocumentPages>
+<FormErrors Count="1">
+<FormError ErrMessage="Pasitikrinkite deklaruotus pardavimų vertės rodiklius — PVM apmokestinamų tiekimų vertė (11, 14, 15 ir/arba 16) nelygi vertei, nuo kurios deklaruotas pardavimo PVM (29, 30 ir/arba 31)." ErrLevel="Warning">
+<FieldOnPageRefs Count="7">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E11"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E14"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E15"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E16"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E29"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E30"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E31"/>
+</FieldOnPageRefs>
+</FormError>
+</FormErrors>
+<Pages Count="1">
+<Page PageDefName="FR0600" PageNumber="1">
+<Fields Count="40">
+<Field Name="B_MM_Pavad" Text="UAB &quot;PRICEWATERHOUSECOOPERS&quot;">UAB &quot;PRICEWATERHOUSECOOPERS&quot;</Field>
+<Field Name="B_MM_ID" Text="111473315">111473315</Field>
+<Field Name="LT" Text=""></Field>
+<Field Name="B_MM_PVM" Text="114733113">114733113</Field>
+<Field Name="B_MM_Adresas" Text=""></Field>
+<Field Name="B_MM_Epastas" Text=""></Field>
+<Field Name="B_UzpildData" Text=""></Field>
+<Field Name="B_ML_DataNuo" Text="2020-05-01">2020-05-01</Field>
+<Field Name="B_ML_DataIki" Text="2020-05-31">2020-05-31</Field>
+<Field Name="E10" Text=""></Field>
+<Field Name="E11" Text="5000">5000</Field>
+<Field Name="E12" Text=""></Field>
+<Field Name="E13" Text=""></Field>
+<Field Name="E14" Text=""></Field>
+<Field Name="E15" Text=""></Field>
+<Field Name="E16" Text=""></Field>
+<Field Name="E17" Text=""></Field>
+<Field Name="E18" Text=""></Field>
+<Field Name="E19" Text=""></Field>
+<Field Name="E20" Text=""></Field>
+<Field Name="E21" Text=""></Field>
+<Field Name="E22" Text=""></Field>
+<Field Name="E23" Text=""></Field>
+<Field Name="E24" Text=""></Field>
+<Field Name="E25" Text=""></Field>
+<Field Name="E26" Text=""></Field>
+<Field Name="E27" Text=""></Field>
+<Field Name="E28" Text="100">100</Field>
+<Field Name="E29" Text="2000">2000</Field>
+<Field Name="E30" Text=""></Field>
+<Field Name="E31" Text=""></Field>
+<Field Name="E32" Text=""></Field>
+<Field Name="E33" Text=""></Field>
+<Field Name="E34" Text=""></Field>
+<Field Name="E35" Text=""></Field>
+<Field Name="E36" Text="2000">2000</Field>
+<Field Name="B_FormNr" Text=""></Field>
+<Field Name="B_FormVerNr" Text=""></Field>
+<Field Name="E8" Text="1">1</Field>
+<Field Name="E9" Text="1">1</Field>
+</Fields>
+</Page>
+</Pages>
+</Form>
+</FFData>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFData Version="1" CreatedByApp="ABBYY eFormFiller 2.5 v7 (build 190)" CreatedByLogin="Augustinas-DELL" CreatedOn="2020-05-05">
+<Form FormDefId="{DFDCC8EC-FFAB-4AA2-92E3-E20980272B19}" FormLocation="c:\users\augustinas-dell\desktop\vatsonas\vatsonas-api\vatsonas_api\form scraping\fr0600.mxfd">
+<DocumentPages>
+<Group Name="Visa forma">
+<ListPages>
+<ListPage>FR0600</ListPage>
+</ListPages>
+</Group>
+</DocumentPages>
+<FormErrors Count="7">
+<FormError ErrMessage="Prekių vertė (21) turėtų atitikti vertę, nuo kurios deklaruotas pardavimo PVM (34). Jei prekių įsigijimas PVM neapmokestinamas, tokių prekių vertė į (21) neįtraukiama." ErrLevel="Warning">
+<FieldOnPageRefs Count="2">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E21"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E34"/>
+</FieldOnPageRefs>
+</FormError>
+<FormError ErrMessage="Jei deklaruojamos iš užsienio valstybių įsigytos apmokestinamos paslaugos (23), nuo jų turi būti apskaičiuotas ir deklaruotas pardavimo PVM (32)." ErrLevel="Warning">
+<FieldOnPageRefs Count="2">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E23"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E32"/>
+</FieldOnPageRefs>
+</FormError>
+<FormError ErrMessage="Pasitikrinkite deklaruotą iš užsienio valstybių įsigytų paslaugų vertę - iš ES valstybių narių įsigytų paslaugų vertė (24) turi būti įrašyta ir kaip iš užsienio valstybių įsigytų paslaugų vertė (23)." ErrLevel="Warning">
+<FieldOnPageRefs Count="2">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E23"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E24"/>
+</FieldOnPageRefs>
+</FormError>
+<FormError ErrMessage="Šiame laukelyje rašoma importo PVM suma, mokėtina į Muitinės sąskaitą bei grąžintina PVM skirtumu ar permoka. PVM mokėtojai, kuriems nuo 2013-03-01 taikoma importo PVM įskaitymo (sumokėjimo) VMI  tvarka, šį importo PVM turi deklaruoti 27 laukelyje. " ErrLevel="Warning">
+<FieldOnPageRefs Count="1">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E26"/>
+</FieldOnPageRefs>
+</FormError>
+<FormError ErrMessage="Pasitikrinkite importo PVM, kurio įskaitymą nuo 2013-03-01 kontroliuoja VMI, sumą. 26 laukelyje nurodytas importo PVM neturi būti pakartotinai deklaruojamas 27 laukelyje." ErrLevel="Warning">
+<FieldOnPageRefs Count="2">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E27"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E26"/>
+</FieldOnPageRefs>
+</FormError>
+<FormError ErrMessage="Pasitikrinkite (25) deklaruotą pirkimo PVM — į šį laukelį turi būti įtrauktas (32, 34) deklaruotas iš ES įsigytų prekių/paslaugų PVM." ErrLevel="Warning">
+<FieldOnPageRefs Count="5">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E25"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E28"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E32"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E34"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E35"/>
+</FieldOnPageRefs>
+</FormError>
+<FormError ErrMessage="Pasitikrinkite deklaruotą  už Lietuvos ribų įvykusių sandorių vertę  (20) - 22 laukelyje deklaruota iš ES trikampei prekybai įsigytų prekių vertė neturėtų būti mažesnė arba lygi  20 laukelio reikšmei." ErrLevel="Warning">
+<FieldOnPageRefs Count="2">
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E20"/>
+<FieldOnPageRef PageDefName="FR0600" PageNumber="1" FieldName="E22"/>
+</FieldOnPageRefs>
+</FormError>
+</FormErrors>
+<Pages Count="1">
+<Page PageDefName="FR0600" PageNumber="1">
+<Fields Count="40">
+<Field Name="B_MM_Pavad" Text="UAB &quot;PRICEWATERHOUSECOOPERS&quot;">UAB &quot;PRICEWATERHOUSECOOPERS&quot;</Field>
+<Field Name="B_MM_ID" Text="111473315">111473315</Field>
+<Field Name="LT" Text=""></Field>
+<Field Name="B_MM_PVM" Text="114733113">114733113</Field>
+<Field Name="B_MM_Adresas" Text=""></Field>
+<Field Name="B_MM_Epastas" Text=""></Field>
+<Field Name="B_UzpildData" Text=""></Field>
+<Field Name="B_ML_DataNuo" Text="2020-04-01">2020-04-01</Field>
+<Field Name="B_ML_DataIki" Text="2020-04-30">2020-04-30</Field>
+<Field Name="E10" Text=""></Field>
+<Field Name="E11" Text="100">100</Field>
+<Field Name="E12" Text="200">200</Field>
+<Field Name="E13" Text="300">300</Field>
+<Field Name="E14" Text="400">400</Field>
+<Field Name="E15" Text="500">500</Field>
+<Field Name="E16" Text="600">600</Field>
+<Field Name="E17" Text="700">700</Field>
+<Field Name="E18" Text="800">800</Field>
+<Field Name="E19" Text="900">900</Field>
+<Field Name="E20" Text="1000">1000</Field>
+<Field Name="E21" Text="1100">1100</Field>
+<Field Name="E22" Text="1200">1200</Field>
+<Field Name="E23" Text="1300">1300</Field>
+<Field Name="E24" Text="1400">1400</Field>
+<Field Name="E25" Text="1500">1500</Field>
+<Field Name="E26" Text="1600">1600</Field>
+<Field Name="E27" Text="1700">1700</Field>
+<Field Name="E28" Text="100">100</Field>
+<Field Name="E29" Text=""></Field>
+<Field Name="E30" Text=""></Field>
+<Field Name="E31" Text=""></Field>
+<Field Name="E32" Text=""></Field>
+<Field Name="E33" Text=""></Field>
+<Field Name="E34" Text="2400">2400</Field>
+<Field Name="E35" Text=""></Field>
+<Field Name="E36" Text="4100">4100</Field>
+<Field Name="B_FormNr" Text=""></Field>
+<Field Name="B_FormVerNr" Text=""></Field>
+<Field Name="E8" Text="1">1</Field>
+<Field Name="E9" Text="1">1</Field>
+</Fields>
+</Page>
+</Pages>
+</Form>
+</FFData>
