@@ -1,0 +1,5 @@
+Flask
+Flask-Mail
+docx-mailmerge
+lxml
+Flask-Cors
