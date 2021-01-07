@@ -1,0 +1,13 @@
+@import "./Helpers.scss";
+
+.Dashboard {
+  #dashboard-contents {
+    height: 80vh;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,34 @@
+@import "./Helpers.scss";
+
+.Navbar {
+  height: 10vh;
+
+  #navbar-content {
+    height: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #left-side {
+      #logo-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: default;
+
+        img {
+          width: 3rem;
+          margin-right: 0.5rem;
+        }
+
+        span {
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
