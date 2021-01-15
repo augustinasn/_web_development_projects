@@ -1,0 +1,60 @@
+@import "Variables.scss";
+
+.Splash {
+  position: relative;
+  width: 100vw;
+  height: 94vh;
+  background-image: url("/bg/splash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  #splash-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #cta {
+      text-decoration: none;
+      margin-top: 2rem;
+      display: block;
+      color: $alt-color;
+      border: 1px solid $alt-color;
+      border-radius: 5px;
+      padding: 1rem;
+
+      &:hover {
+        background: $alt-color;
+        color: $white-color;
+      }
+    }
+
+    #typed-div {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      width: 75%;
+
+      h1,
+      .typed-cursor {
+        color: $alt-color;
+        font-size: 4rem;
+      }
+    }
+  }
+
+  #color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, $main-color-2 0%, $main-color 100%);
+    z-index: 1;
+    opacity: 0.5;
+  }
+}
