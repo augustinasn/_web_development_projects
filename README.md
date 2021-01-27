@@ -23,4 +23,4 @@
 
 - Author - Augustinas Naina ([email](mailto:augustinasnaina@gmail.com), [LinkedIn](https://www.linkedin.com/in/augustinasn/));
 - License - [GPLv3](https://github.com/augustinasn/_web_development_projects/blob/master/LICENSE);
-- Cover image by <a href='https://unsplash.com/@lazycreekimages'>Michael Dziedzic</a>.
+- Cover image by <a href='https://unsplash.com/@aquatium'>Harpal Singh</a>.
