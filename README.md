@@ -14,6 +14,7 @@
         <li>Web apps;</li>
         <li>Wordpress sites;</li>
         <li>Ecommerce sites;</li>
+        <li>Hybrid mobile apps.</li>
       </ul>
     </td>
   </tr>
