@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*, body {
+  margin: 0;
+  padding: 0;
+  background: #34F7B1;
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+
+#text-div {
+  text-align: center;
+}
+
+h1 {
+  color: #f7347a;
+  font-size: 5rem;
+}
+
+#buttons {
+  margin-top: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.accent {
+  color: #4F34F7;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.row {
+  width: auto;
+  height: auto;
+}
+
+.btn {
+  height: 15rem;
+  width: 15rem;
+  border: 0.75rem solid #4F34F7;
+  border-radius: 50%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#horse {
+  background: url("./images/horse.jpg") no-repeat center;
+}
+
+#chicken {
+  background: url("./images/chicken.jpg") no-repeat;
+  background-position-x: -220px;
+  background-position-y: -260px;
+}
+
+#sheep {
+  background: url("./images/sheep.jpg") no-repeat;
+  background-position-x: -260px;
+  background-position-y: -195px;
+}
+
+#wolf {
+  background: url("./images/wolf.jpg") no-repeat;
+  background-position-x: -150px;
+  background-position-y: -150px;
+}
+
+#owl {
+  background: url("./images/owl.jpg") no-repeat;
+  background-position-x: -275px;
+  background-position-y: -75px;
+}
+
+#hedgehog {
+  background: url("./images/hedgehog.jpg") no-repeat;
+  background-position-x: -175px;
+  background-position-y: -150px;
+}
+
+#cat {
+  background: url("./images/cat.jpg") no-repeat center;
+  background-position-y: -75px;
+}
+
+#dog {
+  background: url("./images/dog.jpg") no-repeat center;
+  background-position-y: -60px;
+  background-position-x: -175px;
+}
+
+#pig {
+  background: url("./images/pig.jpg") no-repeat center;
+  background-position-x: -150px;
+}
