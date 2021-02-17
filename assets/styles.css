@@ -14,7 +14,7 @@
 
 h1 {
   color: #f7347a;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 #buttons {
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -38,9 +38,9 @@ h2 {
 }
 
 .btn {
-  height: 15rem;
-  width: 15rem;
-  border: 0.75rem solid #4F34F7;
+  height: 7rem;
+  width: 7rem;
+  border: 0.25rem solid #4F34F7;
   border-radius: 50%;
   padding: 1rem;
   box-sizing: border-box;
@@ -48,50 +48,58 @@ h2 {
 
 #horse {
   background: url("./images/horse.jpg") no-repeat center;
+	background-size: 300px;
 }
 
 #chicken {
   background: url("./images/chicken.jpg") no-repeat;
-  background-position-x: -220px;
-  background-position-y: -260px;
+  background-position-x: -50px;
+  background-position-y: -80px;
+	background-size: 200px;
 }
 
 #sheep {
   background: url("./images/sheep.jpg") no-repeat;
-  background-position-x: -260px;
-  background-position-y: -195px;
+  background-position-x: -25px;
+  background-position-y: -25px;
+	background-size: 150px;
 }
 
 #wolf {
   background: url("./images/wolf.jpg") no-repeat;
-  background-position-x: -150px;
-  background-position-y: -150px;
+  background-position-x: -25px;
+/*   background-position-y: -150px; */
+	background-size: 175px;
 }
 
 #owl {
   background: url("./images/owl.jpg") no-repeat;
-  background-position-x: -275px;
-  background-position-y: -75px;
+  background-position-x: -225px;
+	background-position-y: -60px;
+	background-size: 500px; 
 }
 
 #hedgehog {
   background: url("./images/hedgehog.jpg") no-repeat;
-  background-position-x: -175px;
-  background-position-y: -150px;
+  background-position-x: -25px;
+  background-position-y: -25px;
+	background-size: 200px;
 }
 
 #cat {
   background: url("./images/cat.jpg") no-repeat center;
-  background-position-y: -75px;
+	background-size: 150px;
 }
 
 #dog {
   background: url("./images/dog.jpg") no-repeat center;
-  background-position-y: -60px;
-  background-position-x: -175px;
+  background-position-y: -10px;
+  background-position-x: -40px;
+	background-size: 200px;
 }
 
 #pig {
   background: url("./images/pig.jpg") no-repeat center;
-  background-position-x: -150px;
+  background-position-x: -50px;
+	background-size: 250px;
 }
